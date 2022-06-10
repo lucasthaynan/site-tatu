@@ -1,0 +1,83 @@
+
+
+* {  
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box; /* Limitar tamanho de todas as caixas contando padding e margin */
+}
+
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 550px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+   
+}
+
+section.texto {
+    text-align: center;
+}
+
+section.texto > p {
+    padding: 20px 0px;
+}
+
+div.logo {
+    text-align: center;
+}
+
+div.logo > img {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+a {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+p { 
+    font-size: 17px;
+    text-align: center; 
+    padding: 10px 0px; 
+}
+
+section.texto strong {
+    font-size: 19px;
+}
+
+
+div.titulo {
+    background-color: #DCE732;
+    font-weight: bold;
+}
+
+div.descricao {
+    background-color: #E9E9E9;
+    padding: 5px 20px 20px 20px;
+}
+
+div.descricao .detalhes {
+    font-size: 14px;
+}
+
+section.tabela-precos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section.tabela-precos .item-tabela {
+    width: 370px;
+}
